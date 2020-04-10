@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_dataLayer.html") %>
+      <%= t.include("partials/_gtm.html") %>
+    <% } %>
+    <script src="https://kit.fontawesome.com/9d53be7224.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtmNoScript.html") %>
+    <% } %>
+    <responsive-child>
+      <!-- content goes here -->
+
+
+
+      <div class="graphicCon">
+        <div class="screen">
+
+          <div class="headers">
+          <div class="cityName">City</div>
+
+          <div class="title">
+            Unsheltered population in thousands
+          </div>
+        </div>
+
+
+
+          <div class="city">
+            <div class="name">San Francisco
+              <span class="a">Unsheltered population: 5,180</span>
+              <span class="b">Total new sinks: 27</span>
+              <span class="c">Total new toilets: 5</span>
+            </div>
+            <div class="allNum">
+              <div class="num">
+                <% json.calc.forEach(function(item, i) { %>
+                  <%= t.include("partials/_card2.html", { item: item, index: i, entry: 1  }) %>
+                <% }) %>
+              </div>
+              <div class="toilets hide">
+                <% json.calc.forEach(function(item, i) { %>
+                  <%= t.include("partials/_card.html", { item: item, index: i, entry: 1  }) %>
+                <% }) %>
+              </div>
+              <div class="sinks hide">
+                <% json.calc.forEach(function(item, i) { %>
+                  <%= t.include("partials/_card3.html", { item: item, index: i, entry: 1  }) %>
+                <% }) %>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="city">
+            <div class="name">San Jose
+              <span class="a">Unsheltered population: 5,117</span>
+              <span class="b">Total new sinks: 26</span>
+              <span class="c">Total new toilets: 33</span>
+            </div>
+            <div class="allNum">
+            <div class="num">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card2.html", { item: item, index: i, entry: 2  }) %>
+              <% }) %>
+            </div>
+            <div class="toilets hide">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card.html", { item: item, index: i, entry: 2  }) %>
+              <% }) %>
+            </div>
+            <div class="sinks hide">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card3.html", { item: item, index: i, entry: 2  }) %>
+              <% }) %>
+            </div>
+          </div>
+          </div>
+
+          <div class="city">
+            <div class="name">Seattle
+              <span class="a">Unsheltered population: 3,558</span>
+              <span class="b">Total new sinks: 6</span>
+              <span class="c">Total new toilets: 14</span>
+            </div>
+            <div class="allNum">
+            <div class="num">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card2.html", { item: item, index: i, entry: 3  }) %>
+              <% }) %>
+            </div>
+            <div class="toilets hide">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card.html", { item: item, index: i, entry: 3  }) %>
+              <% }) %>
+            </div>
+            <div class="sinks hide">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card3.html", { item: item, index: i, entry: 3  }) %>
+              <% }) %>
+            </div>
+          </div>
+          </div>
+
+
+
+          <div class="city">
+            <div class="name">Oakland*
+              <span class="a">Unsheltered population: 3,120</span>
+              <span class="b">Total new sinks: 40</span>
+              <span class="c">Total new toilets: 41</span>
+            </div>
+            <div class="allNum">
+            <div class="num">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card2.html", { item: item, index: i, entry: 4  }) %>
+              <% }) %>
+            </div>
+            <div class="toilets hide">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card.html", { item: item, index: i, entry: 4  }) %>
+              <% }) %>
+            </div>
+            <div class="sinks hide">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card3.html", { item: item, index: i, entry: 4  }) %>
+              <% }) %>
+            </div>
+          </div>
+          </div>
+
+          <div class="city">
+            <div class="name">Berkeley
+              <span class="a">Unsheltered population: 813</span>
+              <span class="b">Total new sinks: 22</span>
+              <span class="c">Total new toilets: 10</span>
+            </div>
+            <div class="allNum">
+            <div class="num">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card2.html", { item: item, index: i, entry: 5  }) %>
+              <% }) %>
+            </div>
+            <div class="toilets hide">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card.html", { item: item, index: i, entry: 5  }) %>
+              <% }) %>
+            </div>
+            <div class="sinks hide">
+              <% json.calc.forEach(function(item, i) { %>
+                <%= t.include("partials/_card3.html", { item: item, index: i, entry: 5  }) %>
+              <% }) %>
+            </div>
+          </div>
+          </div>
+
+
+
+          <p class="data-source" style="float:none;margin:-5px 0 5px 0;">*The new hygiene facilities added in Oakland, CA were with the support of Alameda County.</p>
+
+
+
+         </div> <!-- screen End -->
+
+
+
+         <div class="slideHolder">
+           <div class="sH">
+            <div class="slide" data-num="1">
+              Seattle has added new hygiene services for the more than 3,500 unsheltered people in the city,
+              but those efforts have largely lagged behind the added services of four other cities with similarly
+              sized unsheltered homeless populations.
+            </div>
+            <div class="slide" data-num="2">
+              Seattle has installed the fewest new hand-washing stations out of these six metros over the last six weeks.
+              It was also one of the last to do so, installing the first new hand-washing stations on March 27.
+            </div>
+            <div class="slide" data-num="3">
+              Seattle has also installed some of the fewest new toilets, with approximately 3.9 new toilets per
+              every 1,000 unsheltered homeless residents. While San Francisco has only installed five new
+              portable toilets to date, it also had a pre-existing mobile “pit stop” program with sinks,
+              sharps containers, dog waste receptacles and 41 toilets installed across 13 neighborhoods before the pandemic.
+            </div>
+
+            <div class="icon">
+              <div><i class="fas fa-caret-left"></i></div>
+              <div><i class="fas fa-caret-right"></i></div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <figcaption>
+          <p class="data-source">Source: The cities of San Francisco, San Jose, Seattle, Oakland and Berkeley</p>
+          <p class="art-credit">Lauren Flannery / The Seattle Times</p>
+        </figcaption>
+
+
+
+     </div>
+
+
+
+    </responsive-child>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

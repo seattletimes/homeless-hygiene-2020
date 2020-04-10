@@ -1,0 +1,22 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "flaky-butterfish"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": ""
+    }
+  },
+  "title": "",
+  "description": "",
+  "author": "",
+  "url": "",
+  "post_id": 0,
+  "image": "assets/social.jpg",
+  "sheets": ["1stzM8-YB8lTwx5RbDoaTt1nl0WBxh0cCn5jZsGFsNbE"],
+  "docs": [],
+  "embedded": true,
+  "production": false
+}

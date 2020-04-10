@@ -1,0 +1,56 @@
+[
+  {
+    "City": "LA",
+    "unsheltered": "27,221",
+    "handwashing": 370,
+    "toilets": 170,
+    "wash_perThou": 13.59244701,
+    "toilets_perThou": 6.245178355,
+    "unshel_perThou": 27.221
+  },
+  {
+    "City": "San Francisco",
+    "unsheltered": "5,180",
+    "handwashing": 35,
+    "toilets": 5,
+    "wash_perThou": 5.212355212,
+    "toilets_perThou": 0.9652509653,
+    "unshel_perThou": 5.18
+  },
+  {
+    "City": "San Jose",
+    "unsheltered": "5,117",
+    "handwashing": 26,
+    "toilets": 33,
+    "wash_perThou": 5.081102208,
+    "toilets_perThou": 6.449091264,
+    "unshel_perThou": 5.117
+  },
+  {
+    "City": "Seattle",
+    "unsheltered": "3,558",
+    "handwashing": 6,
+    "toilets": 14,
+    "wash_perThou": 1.686340641,
+    "toilets_perThou": 3.934794829,
+    "unshel_perThou": 3.558
+  },
+  {
+    "City": "Oakland",
+    "unsheltered": "3,120",
+    "handwashing": 41,
+    "toilets": 40,
+    "wash_perThou": 13.14102564,
+    "toilets_perThou": 12.82051282,
+    "unshel_perThou": 3.12
+  },
+  {
+    "City": "Berkeley",
+    "unsheltered": 813,
+    "handwashing": 22,
+    "toilets": 10,
+    "wash_perThou": 27.0602706,
+    "toilets_perThou": 12.300123,
+    "unshel_perThou": 0.813
+  }
+]

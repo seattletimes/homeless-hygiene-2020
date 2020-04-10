@@ -1,0 +1,75 @@
+[
+  {
+    "CoC Name": "Los Angeles City & County CoC",
+    "City": "LA",
+    "City total homeless pop": "36,300",
+    "City unsheltered homeless population": "27,221",
+    "Handwashing stations installed since March 1": 370,
+    "Portable toilets": 170,
+    "Hygiene stations (other)": 10,
+    "Overflow shelter units": "13 new crisis centers to de-intensify shelters",
+    "New shelter units": 564,
+    "Quarantine/isolation units": 900,
+    "Emailed?": "y"
+  },
+  {
+    "CoC Name": "San Jose/Santa Clara City & County CoC",
+    "City": "San Jose",
+    "City total homeless pop": "6,097",
+    "City unsheltered homeless population": "5,117",
+    "Handwashing stations installed since March 1": 26,
+    "Portable toilets": 33,
+    "Hygiene stations (other)": "",
+    "Overflow shelter units": "600 (including new shelter units)",
+    "New shelter units": "",
+    "Quarantine/isolation units": "TK",
+    "Emailed?": "y"
+  },
+  {
+    "CoC Name": "Oakland, Berkeley/Alameda County CoC",
+    "City": "Oakland",
+    "City total homeless pop": "",
+    "City unsheltered homeless population": "",
+    "Handwashing stations installed since March 1": 41,
+    "Portable toilets": 40
+  },
+  {
+    "CoC Name": "Oakland, Berkeley/Alameda County CoC",
+    "City": "Berkeley",
+    "City total homeless pop": "1,108",
+    "City unsheltered homeless population": 813,
+    "Handwashing stations installed since March 1": 30,
+    "Portable toilets": "TK",
+    "Hygiene stations (other)": "TK",
+    "Overflow shelter units": "TK",
+    "New shelter units": "TK",
+    "Quarantine/isolation units": "TK",
+    "Emailed?": "y"
+  },
+  {
+    "CoC Name": "Seattle/King County CoC",
+    "City": "Seattle",
+    "City total homeless pop": "7,797",
+    "City unsheltered homeless population": "3,558",
+    "Handwashing stations installed since March 1": 6,
+    "Portable toilets": 14,
+    "Hygiene stations (other)": 0,
+    "Overflow shelter units": "TK",
+    "New shelter units": "TK",
+    "Quarantine/isolation units": "TK"
+  },
+  {
+    "CoC Name": "San Francisco CoC",
+    "City": "San Francisco",
+    "City total homeless pop": "",
+    "City unsheltered homeless population": "",
+    "Handwashing stations installed since March 1": 22,
+    "Portable toilets": "24 pit stops (handwashing and toilets)",
+    "Hygiene stations (other)": "",
+    "Overflow shelter units": "400 units (Moscone West)",
+    "New shelter units": "400 hotel units for people in SROs",
+    "Quarantine/isolation units": "",
+    "Emailed?": "y",
+    "Source": "https://sf.gov/information/covid-19-and-people-experiencing-homelessness"
+  }
+]
